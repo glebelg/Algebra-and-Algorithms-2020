@@ -18,7 +18,6 @@ def trick(g, i, j, k):
     print(f'GATE {g + 9} OR {g + 2} {g + 5}')  # -(i + j) + ij
 
     # lvl 4
-
     print(f'GATE {g + 10} AND {g + 1} {g + 8}')  # -k(i xor j)
     print(f'GATE {g + 11} AND {k} {g + 9}')  # k(-(i + j) + ij)
 
